@@ -199,3 +199,30 @@
 	  #zen-resources a{
 		border: 10px;
 	}
+
+	a:hover {
+		border: 5px solid red
+	}
+
+	a {
+		visibility: hidden;
+	}
+
+	h3:active ~p{
+		visibility: visible;
+	}
+
+	li:first-of-type{
+		color:blueviolet;
+	  }
+	  
+	  p::first-letter{
+		font-size: 300%;
+	  }
+	  
+	  p:nth-child(3n){
+		background-color: yellowgreen;
+	  }
+	  p:nth-child(3n+1){
+		background-color: hsla(0,100%,63%,0.9);
+	  }
